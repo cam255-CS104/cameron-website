@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Team</title>
+
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; background:#fafafa; }
+        .navbar { background:#222; padding:15px; display:flex; justify-content:center; gap:20px; }
+        .navbar a { color:white; text-decoration:none; padding:10px 18px; border-radius:5px; transition:0.3s; font-weight:bold; }
+        .navbar a:hover { background:#555; }
+        header { background:#333; color:white; text-align:center; padding:40px 20px; }
+        .form-container { max-width:600px; margin:40px auto; background:#fff; padding:30px; border-radius:10px; border:1px solid #ddd; }
+        label { font-weight:bold; }
+        input, select, textarea { width:100%; padding:10px; margin-top:5px; margin-bottom:20px; border-radius:5px; border:1px solid #aaa; }
+        button { background:#333; color:white; padding:12px 20px; border:none; border-radius:5px; cursor:pointer; }
+        button:hover { background:#555; }
+        footer { background:#333; color:white; text-align:center; padding:20px; margin-top:40px; }
+    </style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="join.html">Join the Team</a>
+</div>
+
+<header>
+    <h1>Join the Team</h1>
+</header>
+
+<div class="form-container">
+    <form>
+        <label>Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Role</label>
+        <select required>
+            <option>Designer</option>
+            <option>Developer</option>
+            <option>Manager</option>
+            <option>Director</option>
+            <option>Actor / Collaborator</option>
+        </select>
+
+        <label>Availability</label>
+        <input type="checkbox"> Weekends  
+        <br>
+        <input type="checkbox"> Evenings  
+        <br>
+        <input type="checkbox"> Remote  
+
+        <br><br>
+
+        <label>Commitment Type</label>
+        <input type="radio" name="type"> Part-time  
+        <br>
+        <input type="radio" name="type"> Full-time  
+
+        <br><br>
+
+        <label>Tell me why you'd be a good fit</label>
+        <textarea rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    © 2025 Cameron Miller
+</footer>
+
+</body>
+</html>
+
+
+
